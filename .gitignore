@@ -1,0 +1,11 @@
+# Relatórios e catálogo gerados pelos scripts
+/resultados/
+/shifted_candidates_r7.json
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Ambientes virtuais locais
+/.venv/
+/venv/
