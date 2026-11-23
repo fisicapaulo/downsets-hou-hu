@@ -17,7 +17,7 @@ Este repositório reúne os scripts de enumeração e validação computacional 
 Na raiz do repositório, instale as dependências dos validadores e execute os scripts:
 
 ```bash
-python -m pip install numpy "scipy>=1.9"
+python -m pip install -r requirements.txt
 python enumerar_r7.py --output resultados/shifted_candidates_r7.json
 python validar_r456.py
 python validar_r7.py
